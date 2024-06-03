@@ -35,7 +35,7 @@ def main():
 def get_color_rgb():
 
     rgb_to_change = input(
-        "Enter the RGB value of the color you want to change: ")
+        "Enter the RGB value of the color you want to change (eg. 255, 255, 255): ")
 
     red, green, blue = rgb_to_change.split(",")
 
